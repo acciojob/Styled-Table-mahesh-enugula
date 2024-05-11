@@ -1,1 +1,22 @@
 /* your code */
+table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
+
+thead tr{
+	background-color:blue;
+	padding:20px;
+	color:white;
+	text-align:center
+	
+}
+
+tbody{
+	text-align:center;
+}
+
+tbody tr:nth-child(even){
+	background-color:#ccc;
+}
